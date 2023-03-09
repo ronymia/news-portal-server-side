@@ -45,5 +45,5 @@ app.get("/", (req, res) => {
 
 // testing port rinning
 app.listen(port, () => {
-    console.log("News portal server running on port", port);
+    console.log("News portal server running on", `http://localhost:${port}`);
 });
